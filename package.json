@@ -3,6 +3,11 @@
     "name": "startbootstrap-new-age",
     "version": "5.0.0",
     "description": "A one page app landing page HTML theme for Bootstrap.",
+    "scripts": {
+        "compile": [
+            "chmod -R 777 vendor/"
+        ]
+    },
     "keywords": [
         "css",
         "sass",
